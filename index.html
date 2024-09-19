@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+        </style>
+    <link rel="stylesheet" href="estilos.css">
+    <title>CACHO BURGERS & co</title>
+</head>
+
+<body>
+    <div class="main-header">
+        <div class="header">
+            <img src="img/logo.png" alt="logo" class="logo">
+            <div class="buscador">
+                <p>Buscar...</p>
+                <img src="img/Search.png" alt="search">
+                </div>
+                <img src="img/cart.png" alt="pedido" class="cart">
+                <img src="img/user.png" alt="user" class="user">
+        </div>
+        <div class="menuBar">
+            <div>
+                <img src="img/burger.png" alt="burger">
+                <h2 class="selected">HOME</h2>
+                <h2 onclick="window.location.href='pag2.html';">MENÚ</h2>
+                <h2>MIS PEDIDOS</h2>
+                <h2>EVENTOS</h2>
+            </div>
+        </div>
+    </div>
+    
+<div class="content">
+   <div>
+        <section class="portada">
+            <img src="img/portada1.jpg" alt="portada1">
+            <h1>PARTITE LA BOCA!</h1>
+            <p>PORQUE USTEDES LO PIDIERON<br>
+            Ahora podés pedir tus burgers 100% vegan con BEYOND MEAT!</p>
+            <button onclick="window.location.href='http://127.0.0.1:5500/error404.html';">PEDIR!</button>
+        </section>
+    </div>
+    
+
+    <h2>NOVEDADES</h2>
+    <section class="novedades">
+        <article>
+            <img src="img/cheeseball burger.jpg" alt="cheeseball">
+            <div class= "contenido">
+                <h4>CHEESEBALL BURGER</h4>
+                <p>Medallón de cheeseball, salsa cheddar&bacon, carne Ahumada, cebolla en cubitos, ketchup.<br>
+                    Disponible también en versión vegetariana!</p>
+                <button>PEDIR!</button>
+            </div>
+        </article>
+        <article>
+            <img src="img/voces anónimas redonda.png" alt="vocesAnonimas">
+            <div class= "contenido">
+                <h4>CHEESEBALL BUGER</h4>
+                <p>Medallón de cheeseball, salsa cheddar&bacon, carne Ahumada, cebolla en cubitos, ketchup.<br>
+                    Disponible también en versión vegetariana!</p>
+                <button>PEDIR!</button>
+            </div>
+        </article>
+    </section>
+
+
+    <section class="eventos">
+        <h2>próximos eventos</h2>
+        <div>
+            <article class="container">
+                <img class="image" src="img/COLO.png" alt="COLO">
+                <div class="middle">
+                    <div class="text">Ver más</div>
+                </div>
+                <h5>evento1</h5>
+                <p>Texto sobre el evento en cuestión a desarrollarse dicho día SUSTITUIR TEXTO</p>
+            </article>
+    
+            <article class="container">
+                <img class="image" src="img/UNKNOWN.png" alt="UNKNOWN">
+                <div class="middle">
+                    <div class="text">Ver más</div>
+                </div>
+                <h5>evento1</h5>
+                <p>Texto sobre el evento en cuestión a desarrollarse dicho día SUSTITUIR TEXTO</p>
+            </article>
+    
+            <article class="container">
+                <img class="image" src="img/NACHO.png" alt="NACHO">
+                <div class="middle">
+                    <div class="text">Ver más</div>
+                </div>
+                <h5>evento1</h5>
+                <p>Texto sobre el evento en cuestión a desarrollarse dicho día SUSTITUIR TEXTO</p>
+            </article>
+        </div>
+    </section>
+    <hr>
+
+    <section class="form">
+        <h5>agenda tu evento</h5><br>
+        <div class= "form-section1">
+            <article>
+                <label for="name">Nombre y apellido *</label><br>
+                <input type="text" name="name" id="name" placeholder="Nombre y apellido">
+            </article>
+            
+            <article>
+                <label for="mail">Mail *</label><br>
+                <input type="text" name="mail" id="mail" placeholder="Mail">
+            </article>
+            <article>
+                <label for="event">Evento</label><br>
+                <input type="text" name="evento" id="event" placeholder="Evento">
+            </article>
+            </div>
+            <div class= "form-section2">
+                <article class= "comments">
+                    <label for="comments">Comentarios</label> 
+                    <textarea name="comments" id="comments">Escriba aquí sus comentarios..</textarea>
+                </article>
+                <article class= "right-data">
+                    <div>
+                        <p>Tipo de reserva</p>
+                        <input type="radio" id="confirmada" name="confirmacion" placeholder="Confirmada">
+                        <label for="confirmada">Confirmada</label>
+                        <input type="radio" id="aConfirmar" name="confirmacion" placeholder="aConfirmar">
+                        <label for="aConfirmar">A confirmar</label><br>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="recibirMails" name="recibirMails" placeholder="Deseo recibir mails">
+                        <label for="recibirMails"> Deseo recibir mails</label>
+                        <input type="submit" value="AGENDAR">
+                    </div>
+                </article>
+            </div>
+        </section>
+</div>
+</div>
+<div class="footer">
+    <div>
+        <h5>seguinos en:</h5>
+        <img src="img/fb.png" alt="facebook">
+        <img src="img/ig.png" alt="instagram">
+        <img src="img/tt.png" alt="twitter">
+    </div>
+    
+</div>
+</body>
+
+            
+        
+       
+
+
+    
+
+</html>
